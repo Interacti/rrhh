@@ -1,0 +1,170 @@
+@charset "utf-8";
+
+.image_carousel {
+	padding: 15px 0 15px 20px;
+	position: relative;
+	width:940px;
+}
+
+.image_carousel div#element {
+	background-color: white;
+	display: block;
+	float: left;
+	width:280px;
+	margin-left:5px;
+	border:#ddd 1px solid;
+}
+
+.image_carousel div#element div#element-imagen {
+	 width:130px; 
+	 height:130px; 
+	 float:left;
+	 border:#009 1px solid;
+	 
+}
+
+
+
+
+
+
+.image_carousel img {
+	background-color: white;
+	display: block;
+	float: left;
+}
+
+a.prev, a.next {
+	background: url(../img/miscellaneous_sprite.png) no-repeat transparent;
+	width: 45px;
+	height: 50px;
+	display: block;
+	position: absolute;
+	top: 50px;
+}
+a.prev {
+	left: 0px;
+	background-position: 0 0; 
+}
+a.prev:hover {		background-position: 0 -50px; }
+a.prev.disabled {	background-position: 0 -100px !important;  }
+a.next {right: 0px;
+		background-position: -50px 0; 
+}
+a.next:hover {		background-position: -50px -50px; }
+a.next.disabled {	background-position: -50px -100px !important;  }
+a.prev.disabled, a.next.disabled {
+	cursor: default;
+}
+
+a.prev span, a.next span {
+	display: none;
+}
+
+
+
+/************ tema carrusel **********/
+
+
+.tema_carousel {
+	/*padding: 15px 0 15px 40px;*/
+	position: relative;
+	float:left;
+	margin-left:0px;
+	width:320px;
+
+	
+	
+}
+
+.tema_carousel div#tema {
+	margin-left:0px;
+		
+	
+} 
+
+.pagination {
+	text-align: center;
+	widows:300px;
+}
+.pagination a {
+	background: url(../img/miscellaneous_sprite.png) 0 -300px no-repeat transparent;
+	width: 15px;
+	height: 15px;
+	margin: 0 5px 0 0;
+	display: inline-block;
+}
+.pagination a.selected {
+	background-position: -25px -300px;
+	cursor: default;
+}
+.pagination a span {
+	display: none;
+}
+.clearfix {
+	float: none;
+	clear: both;
+}
+
+#tema_pag {
+	position:absolute;
+	width:100px;
+	top:228px;
+	left:215px;
+	}
+
+#tema_titulo{
+    margin-top: 10px;
+    
+    
+}
+
+
+
+.tema_carousel_2 {
+	/*padding: 15px 0 15px 40px;*/
+	position: relative;
+	float:left;
+	margin-left:50px;
+	width:320px;
+	
+	
+}
+
+.tema_carousel_2 div#tema_der {
+	margin-left:0px;
+		
+	
+} 
+
+
+.pagination {
+	text-align: right;
+	widows:300px;
+}
+.pagination a {
+	background: url(../img/miscellaneous_sprite.png) 0 -300px no-repeat transparent;
+	width: 15px;
+	height: 15px;
+	margin: 0 5px 0 0;
+	display: inline-block;
+}
+.pagination a.selected {
+	background-position: -25px -300px;
+	cursor: default;
+}
+.pagination a span {
+	display: none;
+}
+.clearfix {
+	float: none;
+	clear: both;
+}
+
+#tema_pag2 {
+	position:absolute;
+	width:100px;
+	top:228px;
+	left:215px;
+	}
+

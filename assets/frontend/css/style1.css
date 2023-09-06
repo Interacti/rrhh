@@ -1,0 +1,198 @@
+
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+        background:url(../img/bg-navidad.jpg);
+}
+
+
+
+#header {
+	background: url(../img/header.jpg) no-repeat left top;
+	height: 144px;
+}
+
+
+#nombre-puntos {
+    padding: 10px;
+    font-size: 12px;
+     
+}  
+
+
+#nav-bar {
+	background: url(../img/menu_bar.jpg);
+	height: 41px;
+}
+
+#footer {
+	background: url(../img/footer.png);
+	height: 40px;
+}
+
+#menu-opt {
+	text-align: center;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 14px;
+	margin-top: 8px;
+}
+
+#menu-opt a {
+	text-align: center;
+	color: #FFF;
+	text-decoration: none;
+}
+
+#menu-opt a:hover {
+	text-align: center;
+	color: #F30;
+	text-decoration: none;
+}
+
+#search {
+	margin-top: 10px;
+	background: url(../img/back-search.png);
+	height: 70px;
+}
+
+#text-search {
+	height: 32px;
+}
+
+#text-search-title {
+	margin: 5px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+#text-search span {
+	margin: 10px 0 0 2px;
+}
+
+#banner {
+	margin: 10px 0 0px 8px;
+	border: #666 1px solid;
+	float: left;
+}
+
+#menu_lat {
+	background: url(../img/pestana.png);
+	height: 30px;
+	margin: 5px 0 0 0;
+}
+
+#separator {
+	margin: 10px 0 0 0 0;
+	height: 10px;
+}
+
+#menu5 {
+	width: 220px;
+}
+
+#menu5 ul {
+	list-style: none;
+}
+
+#menu5 li {
+	height: 32px;
+	margin: 0 0 0 0;
+	background: url(../img/pestana.png) no-repeat left top;
+	padding: 2px 0 0 5px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+#menu5 li a {
+	text-decoration: none;
+}
+
+#menu5 li a:link,#menu5 li a:visited {
+	color: #FFF;
+	display: block;
+	background: url(menu5.gif);
+}
+
+#menu5 li a:hover {
+	color: #F30;
+}
+
+#banner-late {
+	margin: 10px 0 0 0;
+}
+
+#catalogo {
+	margin: 10px 0 25px 9px;
+	float: left;
+	height: 490px;
+	background: #ccc;
+}
+
+#prod {
+	width: 220px;
+	height: 220px;
+	border: 1px #006 dotted;
+	float: left;
+	margin: 10px 0 10px 9px;
+}
+
+#image-prod {
+	width: 210px;
+	height: 150px;
+	margin: 10px 0 0 5px;
+}
+
+#detalle-prod {
+	width: 210px;
+	height: 45px;
+	margin: 0px 0 0 5px;
+	padding: 5px;
+}
+
+#linea {
+	height: 1px;
+	width: 700px;
+	margin: 5px 0 5px 5px;
+}
+
+.text-search-input {
+	margin: 5px;
+}
+
+#sombrero{
+	
+	position:absolute;
+	top:-15px;
+	left:-34px;
+	
+}	
+#guirnalda{
+	
+	position:absolute;
+	top:-15px;
+	left:-34px;
+	
+}	
+
+#cinta{
+	
+	position:absolute;
+	top:-28px;
+	left:902px;
+	
+}	
+#arbol{
+	
+	position:absolute;
+	top:104px;
+	left:-118px;
+	
+}	
+
+#regalo{
+	
+	position:absolute;
+	top:141px;
+	left:866px;
+	}	
